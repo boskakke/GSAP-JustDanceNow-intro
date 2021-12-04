@@ -1,0 +1,39 @@
+.gallery {
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+	height: 150px;
+	overflow: hidden;
+
+	&__header {
+		font-size: 3rem;
+		line-height: 1;
+		color: #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	&__image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		// object-fit: cover;
+		// object-position: top center;
+		// z-index: 1;
+		// opacity: 0;
+	}
+	&__headlines {
+		position: absolute;
+		top: 2rem;
+		left: 2rem;
+		line-height: 1;
+		color: #fff;
+		font-weight: 900;
+		z-index: 100;
+		overflow: hidden;
+		height: 2.6rem;
+		width: 100%;
+		padding-left: 2rem;
+	}
+}

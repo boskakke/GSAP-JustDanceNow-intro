@@ -1,0 +1,21 @@
+{
+  "name": "gsap",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/intro.html",
+  "scripts": {
+    "dev": "parcel --open",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.8.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
+    "sharp": "^0.29.1"
+  }
+}
