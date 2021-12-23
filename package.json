@@ -2,9 +2,9 @@
   "name": "gsap",
   "version": "1.0.0",
   "description": "",
-  "source": "./src/intro.html",
+  
   "scripts": {
-    "dev": "parcel --open",
+    "dev": "parcel ./src/index.html",
     "build": "parcel build"
   },
   "keywords": [],
