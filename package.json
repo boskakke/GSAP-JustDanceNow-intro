@@ -4,8 +4,10 @@
   "description": "",
   
   "scripts": {
-    "dev": "parcel ./src/index.html",
-    "build": "parcel build"
+    "dev": "parcel src/index.html",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "yarn clean && npm run build:parcel"
   },
   "keywords": [],
   "author": "",
