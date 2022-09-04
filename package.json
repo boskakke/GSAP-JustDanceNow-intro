@@ -4,9 +4,9 @@
   "description": "",
   
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel src/intro.html",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build:parcel": "parcel build src/intro.html --no-content-hash --no-source-maps --public-url ./",
     "build": "yarn clean && npm run build:parcel"
   },
   "keywords": [],
